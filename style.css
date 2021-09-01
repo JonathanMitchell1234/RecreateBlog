@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+h1 {
+    font-size: 16px;
+    text-align-last: right;
+    color: cornflowerblue;
+    
+}
+
+h2 {
+    letter-spacing: 10px;
+    text-align-last: center;
+    .grow { 
+        transition: all .2s ease-in-out; 
+        }
+        
+        .grow:hover { 
+        transform: scale(1.1); 
+        }
+}
+
+P {
+    border-bottom: 5px solid #ccc;
+    padding-bottom: 10px;
+    text-align-last: right;
+    
+}
+
+
+ 
